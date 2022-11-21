@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(37, 81, 43, 0.306);
+}
+
+.titre {
+    text-align: center;
+    font-family: Lobster
+}
+
+h3 {
+    margin: 30px;
+}
+
+.col-md-8 {
+    column-count: 2;
+}
+
+.col-md-4 {
+    column-count: 2;
+}
+
+.animaux {
+    display: flex;
+    flex-direction: row;
+}
+
+.fiche_animal {
+    background-color: rgb(128, 240, 171);
+    max-width: 20%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nom_animal {
+    font-weight: bold;
+    text-align: center;
+    font-family: Lobster
+}
+
+.image_animal {
+    max-width: 120px;
+    max-height: 100px;
+}
+
+.description_animal {
+    font-size: medium;
+    font-style: italic;
+}
+
+.etat_animal, .lieu_animal {
+    font-weight: bold;
+    font-size: large;
+}
+
+.equipements {
+    display: flex;
+    flex-direction: row;
+}
+
+.nom_equipement {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: Lobster;
+}
+
+.disponibilite_equipement {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: navy;
+}
+
+.image_equipement {
+    max-width: 120px;
+    max-height: 100px;
+}
+
+.fiche_equipement {
+    float: left;
+    width: 25%;
+    break-inside: auto;
+    background-color: lightblue;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 10px;
+    margin: 20px;
+}
+

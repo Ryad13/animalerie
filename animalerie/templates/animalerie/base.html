@@ -1,0 +1,48 @@
+
+{% load static %}
+
+
+<html>
+    <head>
+        <title> Animalerie "Chez Ryad !"</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/animalerie.css' %}">
+        
+    </head>
+
+    <body>
+        <div class="titre">
+            <h1> Bienvenue à l'animalerie "Chez Ryad" !</h1>
+        </div>
+            
+
+        <div class="card" style="margin: 0px; border-radius: 20%; border: 10px solid rgb(178, 32, 32); padding: 10px;"> 
+            <div class="card-body"> 
+                <h4 class="card-title" style="font-weight: bold">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMODE D'EMPLOI</h4> 
+                <p class="card-text">Les animaux passent par différents états au cours de la journée: 
+                    <br/>
+                    <li>Lorsqu’ils se réveillent, ils sont "affamés" et doivent donc être placés sur la mangeoire pour être nourris.</li>
+                    <li>Une fois qu'ils ont mangé, ils sont "repus" et ont besoin d'exercice. Ils doivent donc être placés sur la roue.</li> 
+                    <li>Après avoir fait du sport, ils sont "fatigués" et ont besoin de dormir.</li>
+                    <li>Ils doivent donc être mis dans le nid pour se reposer, et le cycle de la vie continue </li>
+                    
+                </p>
+            </div> 
+        </div>
+
+        <h3> Soyez toujours gentil avec les animaux !</h3>
+        
+        <div class="container">
+            <div class="row">
+                <div>
+                    {% block content %}
+                    {% endblock content %}
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>
